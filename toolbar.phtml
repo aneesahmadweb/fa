@@ -12,8 +12,8 @@
  * @var $block \Rokanthemes\Blog\Block\Post\PostList\Toolbar
  */
 ?>
-<?php if ($block->getCollection()->getPageSize()): ?>
-    <div class="toolbar toolbar-blog-posts post-paginav">
+<?php if ($block->getCollection()->getPageSizes()): ?>
+    <div class="toolbar toolbar-blog-posts post-paginavs">
         <?php echo $block->getPagerHtml() ?>
     </div>
 <?php endif ?>
